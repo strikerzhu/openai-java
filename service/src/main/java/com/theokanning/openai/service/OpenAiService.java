@@ -148,6 +148,10 @@ public class OpenAiService {
         return execute(api.createChatCompletion(request));
     }
 
+    public ChatCompletionResult createImageCompletion(ImageCompletionRequest request) {
+        return execute(api.createImageCompletion(request));
+    }
+
     public Flowable<ChatCompletionChunk> streamChatCompletion(ChatCompletionRequest request) {
         request.setStream(true);
 

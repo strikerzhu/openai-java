@@ -13,6 +13,7 @@ import com.theokanning.openai.completion.CompletionRequest;
 import com.theokanning.openai.completion.CompletionResult;
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;
 import com.theokanning.openai.completion.chat.ChatCompletionResult;
+import com.theokanning.openai.completion.chat.ImageCompletionRequest;
 import com.theokanning.openai.edit.EditRequest;
 import com.theokanning.openai.edit.EditResult;
 import com.theokanning.openai.embedding.EmbeddingRequest;
@@ -68,6 +69,9 @@ public interface OpenAiApi {
 
     @POST("/v1/chat/completions")
     Single<ChatCompletionResult> createChatCompletion(@Body ChatCompletionRequest request);
+
+    @POST("/v1/chat/completions")
+    Single<ChatCompletionResult> createImageCompletion(@Body ImageCompletionRequest request);
 
     @Streaming
     @POST("/v1/chat/completions")
