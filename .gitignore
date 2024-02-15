@@ -41,3 +41,25 @@ build
 
 # Ignore the macOS folder attribute file
 **/.DS_Store
+api/out/test/resources/fixtures/ChatCompletionRequest.json
+api/out/test/resources/fixtures/ChatCompletionResult.json
+api/out/test/resources/fixtures/CreateImageRequest.json
+api/out/test/resources/fixtures/DeleteResult.json
+api/out/test/resources/fixtures/EditRequest.json
+api/out/test/resources/fixtures/EditResult.json
+api/out/test/resources/fixtures/EmbeddingRequest.json
+api/out/test/resources/fixtures/EmbeddingResult.json
+api/out/test/resources/fixtures/Engine.json
+api/out/test/resources/fixtures/File.json
+api/out/test/resources/fixtures/FineTuneEvent.json
+api/out/test/resources/fixtures/FineTuneResult.json
+api/out/test/resources/fixtures/FineTuningEvent.json
+api/out/test/resources/fixtures/FineTuningJob.json
+api/out/test/resources/fixtures/FineTuningJobRequest.json
+api/out/test/resources/fixtures/ImageResult.json
+api/out/test/resources/fixtures/Message.json
+api/out/test/resources/fixtures/Model.json
+api/out/test/resources/fixtures/ModerationRequest.json
+api/out/test/resources/fixtures/ModerationResult.json
+api/out/test/resources/fixtures/TranscriptionResult.json
+api/out/test/resources/fixtures/TranslationResult.json

@@ -52,6 +52,7 @@ public class ChatFunction {
             return this;
         }
 
+        @SuppressWarnings("unchecked") // 只在你确信类型转换是安全的情况下使用
         public <T> Builder executor(Class<T> requestClass, Function<T, Object> executor) {
             this.parameters = requestClass;
             this.executor = (Function<Object, Object>) executor;

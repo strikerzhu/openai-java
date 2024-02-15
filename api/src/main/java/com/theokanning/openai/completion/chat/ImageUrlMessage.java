@@ -3,12 +3,9 @@ package com.theokanning.openai.completion.chat;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
 import java.io.ByteArrayOutputStream;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.Base64;
 
 /**
